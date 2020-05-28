@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Platform } from "react-native";
 import MapView, { Marker } from "react-native-maps";
+
 import Colors from "../constants/Colors";
 
 const MapScreen = props => {
@@ -57,8 +58,8 @@ MapScreen.navigationOptions = navData => {
         <Text style={styles.headerButtonText}>Save</Text>
       </TouchableOpacity>
     )
-  }
-}
+  };
+};
 
 const styles = StyleSheet.create({
   map: {
