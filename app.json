@@ -1,19 +1,21 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "fifthProject",
+    "name": "Great Places",
+    "description": "some text",
+    "slug": "great-places",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/places.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
