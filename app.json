@@ -25,6 +25,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places.png",
+        "backgroundColor": "#171717"
+      }
     }
   }
 }
